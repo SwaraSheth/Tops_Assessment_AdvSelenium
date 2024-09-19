@@ -101,7 +101,7 @@ public class Task4 {
      			
              	System.out.println(data[i][0]+" is Login SuccessFully ");
              	File file=((RemoteWebDriver) driver).getScreenshotAs(OutputType.FILE);
-             	Files.copy(file,new File("C:\\Users\\Admin\\eclipse-workspace\\Top_Assessment\\ScreenShots\\PassLogin.jpg"));	
+             	Files.copy(file,new File("C:\\Users\\Admin\\eclipse-workspace\\Tops_Assessment\\ScreenShots\\PassLogin.jpg"));	
             	
      		} 
              
